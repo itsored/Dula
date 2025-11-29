@@ -1,0 +1,27 @@
+{
+  "name": "nexuspay-mpesa-webhook",
+  "version": "1.0.0",
+  "description": "M-Pesa webhook service for NexusPay",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod",
+    "local": "node local-dev.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "vercel": "^32.7.2"
+  },
+  "keywords": [
+    "mpesa",
+    "webhook",
+    "nexuspay",
+    "vercel"
+  ],
+  "author": "NexusPay Team",
+  "license": "MIT"
+}
